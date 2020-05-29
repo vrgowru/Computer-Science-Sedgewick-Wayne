@@ -3,7 +3,7 @@ package chapter_1;
 /************************************************************************************
  * These are set of programs written for Computer Science: Programming with a Purpose
  * course on coursera linked below
- * @Link - https://www.coursera.org/learn/cs-programming-java/home/welcome
+ * @link - https://www.coursera.org/learn/cs-programming-java/home/welcome
  * The programs contain examples, solutions to chapter exercises
  * programming assignments and are authored by
  *
@@ -11,7 +11,7 @@ package chapter_1;
  *
  * @Problem Statement - Write a simple program to print Hello, World!!
  *
- * @ Output - Prints Hello, World!!
+ * @ return - Prints Hello, World!!
  *
  ************************************************************************************/
 

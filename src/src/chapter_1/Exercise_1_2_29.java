@@ -3,19 +3,19 @@ package chapter_1;
 /************************************************************************************
  * This program is written for Computer Science: Programming with a Purpose
  * course on coursera linked below
- * @Link - https://www.coursera.org/learn/cs-programming-java/home/welcome
+ * @link - https://www.coursera.org/learn/cs-programming-java/home/welcome
  * The programs contain examples, solutions to chapter exercises
  * programming assignments and are authored by
  *
  * @author Venkateshwara Gowru
  *
- * @Input - Three integers m (month), d (day), and y (year)
+ * @param - Three integers m (month), d (day), and y (year)
  *
- * @ProblemStatement - “Day of the week. Write a program that takes a date as input
+ * @implSpec - “Day of the week. Write a program that takes a date as input
  * and prints the day of the week that date falls on.
  * Your program should accept three int command-line arguments:
  * m (month), d (day), and y (year).
- * For m, use 1 for January, 2 for February, and so forth. For output,
+ * For m, use 1 for January, 2 for February, and so forth. For return,
  * print 0 for Sunday, 1 for Monday, 2 for Tuesday, and so forth.
  * Use the following formulas, for the Gregorian calendar:
  * y0 = y – (14 – m) / 12
@@ -28,7 +28,7 @@ package chapter_1;
  * m0 = 2 + 12 × 1 – 2 = 12
  * d0 = (14 + 2483 + (31 × 12) / 12) % 7 = 2500 % 7 = 1”
  *
- * @Output - Day
+ * @return - Day
  *
  ************************************************************************************/
 

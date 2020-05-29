@@ -3,19 +3,19 @@ package chapter_1;
 /************************************************************************************
  * This program is written for Computer Science: Programming with a Purpose
  * course on coursera linked below
- * @Link - https://www.coursera.org/learn/cs-programming-java/home/welcome
+ * @link - https://www.coursera.org/learn/cs-programming-java/home/welcome
  * The programs contain examples, solutions to chapter exercises
  * programming assignments and are authored by
  *
  * @author Venkateshwara Gowru
  *
- * @Input - Double numbers x y z
+ * @param - Double numbers x y z
  *
- * @ProblemStatement - “Order check. Write a program that takes three double
+ * @implSpec - “Order check. Write a program that takes three double
  * command-line arguments x, y, and z and prints true if the values are strictly
  * ascending or descending (x < y < z or x > y > z), and false otherwise.”
  *
- * @Output - true, false
+ * @return - true, false
  *
  ************************************************************************************/
 public class Exercise_1_2_28 {

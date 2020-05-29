@@ -3,7 +3,7 @@ package chapter_1;
 /************************************************************************************
  * These are set of programs written for Computer Science: Programming with a Purpose
  * course on coursera linked below
- * @Link - https://www.coursera.org/learn/cs-programming-java/home/welcome
+ * @link - https://www.coursera.org/learn/cs-programming-java/home/welcome
  * The programs contain examples, solutions to chapter exercises
  * programming assignments and are authored by
  *
@@ -12,7 +12,7 @@ package chapter_1;
  * @Problem Statement - Reverse values between two variables using a temp variable and
  * without using a temp variable
  *
- * @Output - assigns value of a to b and b to a
+ * @return - assigns value of a to b and b to a
  *
  ************************************************************************************/
 

@@ -1,24 +1,22 @@
 package chapter_1;
 
-import java.util.Arrays;
-
 /************************************************************************************
  * These are set of programs written for Computer Science: Programming with a Purpose
  * course on coursera linked below
- * @Link - https://www.coursera.org/learn/cs-programming-java/home/welcome
+ * @link - https://www.coursera.org/learn/cs-programming-java/home/welcome
  * The programs contain examples, solutions to chapter exercises
  * programming assignments and are authored by
  *
  * @author - Venkateshwara Gowru
  *
- * @Input - None
+ * @param - None
  *
- * @ProblemStatement - Uniform random numbers. Write a program that prints five
+ * @implSpec - Uniform random numbers. Write a program that prints five
  * uniform random numbers between 0 and 1, their average value,
  * and their minimum and maximum values. Use Math.random(),
  * Math.min(), and Math.max().
  *
- * @Output - Average, Minimum, Maximum
+ * @return - Average, Minimum, Maximum
  *
  ************************************************************************************/
 

@@ -3,15 +3,15 @@ package chapter_1;
 /************************************************************************************
  * This program is written for Computer Science: Programming with a Purpose
  * course on coursera linked below
- * @Link - https://www.coursera.org/learn/cs-programming-java/home/welcome
+ * @link - https://www.coursera.org/learn/cs-programming-java/home/welcome
  * The programs contain examples, solutions to chapter exercises
  * programming assignments and are authored by
  *
  * @author Venkateshwara Gowru
  *
- * @Input - 
+ * @param - input λ0, lat and long
  *
- * @ProblemStatement - “Mercator projection. The Mercator projection is a conformal
+ * @implSpec - “Mercator projection. The Mercator projection is a conformal
  * (angle-preserving) projection that maps latitude φ and longitude λ to rectangular
  * coordinates (x, y). It is widely used—for example, in nautical charts and in the
  * maps that you print from the web. The projection is defined by the equations
@@ -20,7 +20,7 @@ package chapter_1;
  * latitude and longitude of a point from the command line and prints its projection.”
  *
  *
- * @Output - 
+ * @return -
  *
  ************************************************************************************/
 public class Exercise_1_2_31 {

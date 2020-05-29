@@ -3,19 +3,19 @@ package chapter_1;
 /************************************************************************************
  * These are set of programs written for Computer Science: Programming with a Purpose
  * course on coursera linked below
- * @Link - https://www.coursera.org/learn/cs-programming-java/home/welcome
+ * @link - https://www.coursera.org/learn/cs-programming-java/home/welcome
  * The programs contain examples, solutions to chapter exercises
  * programming assignments and are authored by
  *
  * @author Venkateshwara Gowru
  *
- * @ProblemStatement - “Continuously compounded interest.
+ * @implSpec - “Continuously compounded interest.
  * Write a program that calculates and prints the amount of money you would have
  * after t years if you invested P dollars at an annual interest rate r
  * (compounded continuously). The desired value is given by the formula P * e to the power of (rt).”
  *
  *
- * @Output Compound interest
+ * @return Compound interest
  *
  ************************************************************************************/
 

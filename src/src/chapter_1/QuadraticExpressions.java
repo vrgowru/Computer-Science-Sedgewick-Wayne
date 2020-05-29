@@ -3,7 +3,7 @@ package chapter_1;
 /************************************************************************************
  * These are set of programs written for Computer Science: Programming with a Purpose
  * course on coursera linked below
- * @Link - https://www.coursera.org/learn/cs-programming-java/home/welcome
+ * @link - https://www.coursera.org/learn/cs-programming-java/home/welcome
  * The programs contain examples, solutions to chapter exercises
  * programming assignments and are authored by
  *
@@ -13,7 +13,7 @@ package chapter_1;
  * expression ax2+bx+c are provided using the formula
  * (b*b +/_ Squareroot(b*b - 4ac))/2a
  *
- * @Output - Prints root1 and root2
+ * @return - Prints root1 and root2
  *
  ************************************************************************************/
 
