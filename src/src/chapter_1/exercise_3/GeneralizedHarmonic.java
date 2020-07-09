@@ -13,19 +13,23 @@ package chapter_1.exercise_3;
  *
  * @author Venkateshwara Gowru
  *
- * @implSpec - Exponential function. Assume that x is a positive variable of type double.
- * Write a program Exp.java that computes e^x using the Taylor series expansion
+ * @implSpec - Generalized harmonic numbers. Write a program GeneralizedHarmonic.java
+ * that takes two integer command-line arguments n and r and uses a for loop to compute
+ * the nth generalized harmonic number of order r, which is defined by the following formula:
  *
- *     e^x=1+x+x^2/2!+x^3/3!+x^4/4!+…
+ *     H(n,r)=1/1^r+1/2^r+⋯+1/n^r.
+ *
+ * For example, H(3,2)=1/1^2+1/2^2+1/3^2=4936≈1.361111.
  *
  ************************************************************************************/
-public class Exp {
+public class GeneralizedHarmonic {
     public static void main(String[] args) {
-        int[] b = {1, 2, 3};
-        int[] c = b;
-        c[0] += b[2];
-        c[1] += b[1];
-        c[2] += b[0];
-        System.out.println(c[0] + c[1] + c[2]);
+        int n = Integer.parseInt(args[0]);
+        int r = Integer.parseInt(args[1]);
+        double sum = 0;
+        for (int i = 1; i <= n; i++) {
+            sum = sum + (1 / Math.pow(i, r));
+        }
+        System.out.print(sum);
     }
 }
